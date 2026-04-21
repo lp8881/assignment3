@@ -39,11 +39,5 @@ Use MeshLab to open output_reconstruction.obj
 
 完整的命令行脚本见 [run_colmap.sh](run_colmap.sh)，可参考 [COLMAP CLI Tutorial](https://colmap.github.io/cli.html) 了解各步骤详情。
 
-#### COLMAP 安装：
-- **Linux**：参考 [官方安装文档](https://colmap.github.io/install.html) 从源码编译（需开启 CUDA 支持），或使用 `conda install -c conda-forge colmap`
-- **Windows**：从 [COLMAP Releases](https://github.com/colmap/colmap/releases) 下载 `COLMAP-dev-windows-cuda.zip`，解压后将目录加入 PATH 即可使用
-
-稠密重建需要 CUDA GPU；如无 GPU，可只完成到稀疏重建步骤。
-
 
 ## Acknowledgement
