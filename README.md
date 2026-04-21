@@ -15,7 +15,7 @@ python -m pip install -r requirements.txt
 To run basic transformation, run:
 
 ```basic
-python global_transform.py
+python Bundle_Adjustment.py
 ```
 
 To run point guided transformation, run:
