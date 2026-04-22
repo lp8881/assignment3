@@ -28,16 +28,11 @@ Use MeshLab to open output_reconstruction.obj
 ## Task 2: 3D Reconstruction with COLMAP
 
 使用 [COLMAP](https://colmap.github.io/) 命令行工具，对 `data/images/` 中的 50 张渲染图像进行完整的三维重建。
+<img width="1527" height="937" alt="2606009cff51b2963d2184d65c544838" src="https://github.com/user-attachments/assets/2d1677f9-57b0-4814-8398-a301ac206a9f" />
 
-### 具体步骤：
 
-1. **特征提取** (Feature Extraction)(电脑无GPU要将gpu_index设置为0)
-2. **特征匹配** (Feature Matching)(电脑无GPU要将gpu_index设置为0)
-3. **稀疏重建** (Sparse Reconstruction / Mapper) — 即 COLMAP 内部的 Bundle Adjustment
-4. **稠密重建** (Dense Reconstruction) — 包括 Image Undistortion、Patch Match Stereo、Stereo Fusion
-5. **结果展示** — 在报告中展示稀疏点云或稠密点云的截图（可使用 [MeshLab](https://www.meshlab.net/) 查看 `.ply` 文件）
 
-完整的命令行脚本见 [run_colmap.sh](run_colmap.sh)，可参考 [COLMAP CLI Tutorial](https://colmap.github.io/cli.html) 了解各步骤详情。
+
 
 
 ## Acknowledgement
