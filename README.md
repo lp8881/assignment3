@@ -21,7 +21,9 @@ python Bundle_Adjustment.py
 ## Results (need add more result images)
 ### Loss：
 <img width="800" height="500" alt="optimization_loss" src="https://github.com/user-attachments/assets/f4e70f34-ea8b-4354-b8d7-04d02406d14a" />
+
 ### Reconstructed 3D point cloud:
+
 Use MeshLab to open output_reconstruction.obj
 <img width="1920" height="1200" alt="output_reconstruction_meshlab" src="https://github.com/user-attachments/assets/9ac3fefc-218d-4104-8142-7307e739b7fb" />
 
