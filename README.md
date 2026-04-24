@@ -20,7 +20,7 @@ python Bundle_Adjustment.py
 
 ## Results (need add more result images)
 ### Loss：
-<img width="800" height="500" alt="optimization_loss" src="https://github.com/user-attachments/assets/ce5ce7a7-2788-4c6a-8d0a-3e3842b402f1" />
+<img width="800" height="500" alt="optimization_loss" src="https://github.com/lp8881/assignment3/blob/main/assignment3/optimization_loss.png" />
 
 
 ### Reconstructed 3D point cloud:
